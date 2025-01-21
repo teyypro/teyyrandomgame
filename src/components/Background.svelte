@@ -49,11 +49,11 @@
     }
 </style>
 <div id = 'background'>
-<img class = 'backrain' src = '../images/token.gif' alt ="token">
-<img class = 'backrain' src = '../images/dolar.gif' alt ="token">
+<img class = 'backrain' src = 'images/token.gif' alt ="token">
+<img class = 'backrain' src = 'images/dolar.gif' alt ="token">
 </div>
 
 <div id = 'itemdecorate'>
-<img id = 'backdeco1' src = '../images/phao.webp' alt ="token">
-<img id = 'backdeco2' src = '../images/canh.webp' alt ="token" on:click ={()=>{$step = "1"}}>
+<img id = 'backdeco1' src = 'images/phao.webp' alt ="token">
+<img id = 'backdeco2' src = 'images/canh.webp' alt ="token" on:click ={()=>{$step = "1"}}>
 </div>

@@ -43,7 +43,7 @@
   
  
   <div id="container" >
-    <img alt="beginningImage" src="../images/1_begining.webp">
+    <img alt="beginningImage" src="images/1_begining.webp">
     <span class="animate__rubberBand" >
       LÌ XÌ TOÁN HOC
     </span>

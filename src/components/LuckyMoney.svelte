@@ -3,11 +3,11 @@
     import { slide, scale } from "svelte/transition";
     let burst = false
     let images = [
-        { id: "env1", src: "../images/luckymoney.svg", alt: "lucky" },
-        { id: "env2", src: "../images/luckymoney.svg", alt: "lucky" },
-        { id: "env3", src: "../images/luckymoney.svg", alt: "lucky" },
-        { id: "env4", src: "../images/luckymoney.svg", alt: "lucky" },
-        { id: "env5", src: "../images/luckymoney.svg", alt: "lucky" },
+        { id: "env1", src: "images/luckymoney.svg", alt: "lucky" },
+        { id: "env2", src: "images/luckymoney.svg", alt: "lucky" },
+        { id: "env3", src: "images/luckymoney.svg", alt: "lucky" },
+        { id: "env4", src: "images/luckymoney.svg", alt: "lucky" },
+        { id: "env5", src: "images/luckymoney.svg", alt: "lucky" },
     ];
 
     onMount(() => {

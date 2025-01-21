@@ -20,7 +20,7 @@
 <div id = 'treolucky'>
 <img style="     width: 16vw;
 position: relative;
-top: -7vh;" src='../images/treo.gif' alt='bvon' class = "animate__animated animate__bounceInDown">
+top: -7vh;" src='images/treo.gif' alt='bvon' class = "animate__animated animate__bounceInDown">
 <div id = 'lucky' class ="animate__animated animate__backInRight">Chọn một lì xì bạn muốn!</div>
 </div>
 {/if}

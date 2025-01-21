@@ -20,4 +20,4 @@
    
 
 </style>
-<img src = '../images/coin.gif' alt = "coin" >
+<img src = 'images/coin.gif' alt = "coin" >

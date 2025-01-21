@@ -7,7 +7,7 @@
 
     // Khởi tạo audio và gán sự kiện
     onMount(() => {
-        backaudio = new Audio('../images/backgroundmusic.mp3');
+        backaudio = new Audio('images/backgroundmusic.mp3');
         backaudio.loop = true; // Lặp lại khi kết thúc
         backaudio.play();
     });

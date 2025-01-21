@@ -31,4 +31,4 @@ setTimeout(() => {
 </script>
 
 <img id="animatedImage"
-class="animate__animated" src = "../images/burst.webp" alt = "burrt" >
+class="animate__animated" src = "images/burst.webp" alt = "burrt" >
