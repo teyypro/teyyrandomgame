@@ -3,9 +3,9 @@
   import { click, name, pickName, step, TFbackground, TFPick } from "../store";
   let selectedIds = []  
   const totalIds = 48; // Tổng số ID
-  let aupick = new Audio("/images/tick.mp3");
-  let correctAudio = new Audio('/images/get.mp3')
-  let ghostAudio = new Audio('/images/ghost.mp3')
+  let aupick = new Audio("images/tick.mp3");
+  let correctAudio = new Audio('images/get.mp3')
+  let ghostAudio = new Audio('images/ghost.mp3')
   let prev_Num = -1;
   let exceptList = [18]
 

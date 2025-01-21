@@ -14,7 +14,7 @@
 {#if $TFPick}
 <div class = "animate__rubberBand animate__animated animate__flipInY " >
     <p >{$pickName}</p>
-    <img src='../images/vong.png' alt='bvon'>
+    <img src='images/vong.png' alt='bvon'>
 </div>
 {:else if !$pass}
 <div id = 'treolucky'>
