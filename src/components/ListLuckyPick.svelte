@@ -15,14 +15,14 @@
     let ListNam 
 
 // Fisher-Yates Shuffle Algorithm
-onMount(()=>{ {
+onMount(()=>{ 
     ListNam = $name;
-    console.log($name)
+
     for (let i = ListNam.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [ListNam[i], ListNam[j]] = [ListNam[j], ListNam[i]];
     }
-}
+    console.log($name)
 })
 
 

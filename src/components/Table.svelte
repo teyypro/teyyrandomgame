@@ -7,8 +7,7 @@
   let correctAudio = new Audio('images/get.mp3')
   let ghostAudio = new Audio('images/ghost.mp3')
   let prev_Num = -1;
-  let exceptList = [18]
-
+  let exceptList = [29, 30, 31, 32, 22, 23, 24, 18]
 
   function getRandomInt(min, max) {
     let id = Math.floor(Math.random() * (max - min + 1)) + min;
@@ -30,11 +29,23 @@
     }
     return list
   }
+  onMount(()=>{
+    name.update(currentNames => {
+            
+            currentNames = [];
+   return currentNames; // trả về mảng đã được cập nhật
+ });
+  })
   async function highlightRandomIds() {
     
-
-    let k = 0;
+    name.update(currentNames => {
+            
+             currentNames[0] = "Lì Xì BI_AN";
+    return currentNames; // trả về mảng đã được cập nhật
+  });
+    let k = 1;
     // Đảm bảo chỉ chọn tối đa 5 ô
+
     while (k < 5) {
       let element;
     
@@ -61,7 +72,7 @@
           selectedIds.push(realList[i]); // Thêm ID vào tập hợp 
           name.update(currentNames => {
             console.log(element.textContent)
-    currentNames[k] = element.textContent;
+             currentNames[k] = element.textContent;
     return currentNames; // trả về mảng đã được cập nhật
   });
 
